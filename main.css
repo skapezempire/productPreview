@@ -1,0 +1,188 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body{
+    background-color: rgb(255, 120, 79);
+    
+    display:flex;
+    flex-direction: column;
+    /*justify-items: center;*/
+    /*new*/
+    align-items: center;
+   /* max-width: 500px;
+    margin:auto;*/
+    
+}
+
+.container{
+    background-color: whitesmoke;
+    width: 800px;
+    height: 550px;
+    
+    border-radius: 10px;
+    display: flex;
+    position:absolute;
+    top:10vh;
+    /*new*/
+    
+    
+    
+   /* align-items: center;*/
+    
+   
+}
+
+#btn{
+    background-color: red;
+    border: none;
+    width:350px;
+    height:50px;
+    color:white;
+    box-shadow: 1px 2px 5px rgb(247, 51, 51);
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+
+
+img{
+    height:550px;
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px ;
+}
+
+.right-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+ 
+    
+}
+
+.money{
+    display: flex;
+    column-gap: 60px;
+    align-items: center;
+    ;
+}
+
+
+#new_price{
+    color: rgb(254, 74, 74);
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+
+#old_price{
+    color: #aaa;
+    font-size: 15px;
+}
+
+#title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*color: #aaa;*/
+    color: rgb(254, 74, 74);
+    font-size: 30px;
+  
+    
+    
+}
+
+
+h4{
+    margin-left: 20px;
+    color: rgb(85, 85, 85);
+    text-align: justify;
+    margin-right: 40px;;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    font-family:'Times New Roman', Times, serif
+}
+
+
+#sub-info{
+    font-size: 33px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+    margin: 20px;
+    margin-right: 20px;
+    color: rgb(59, 59, 59);
+}
+
+/*test*/
+
+.icon_btn{
+    display:inline-flex;
+    height: 50px;
+    width:200px;
+    padding:0;
+    background-color:rgb(41, 168, 64);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    /*restricts contents from overflowing*/
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor:pointer;
+    justify-content: end;
+    
+}
+
+.icon_btn:hover{
+    background-color:rgb(53, 201, 80);
+
+}
+
+.icon_btn:active{
+    background-color:rgb(41, 168, 64);
+
+}
+
+.btn_text, .btn_icon{
+    /*vertically center items*/
+    display: inline-flex;
+   /*padding:0;*/
+    align-items: center; /*works when the height 100% is added*/
+    color: aliceblue;
+    height: 100%; 
+   
+    
+
+}
+
+.btn_text{
+
+padding-right: 60px;
+
+
+
+
+
+}
+
+.btn_icon{
+   font-size: 30px;
+    background: rgba(0,0,0,0.08);
+   
+    height: 50px;
+    width:60px;
+    
+   
+
+
+    
+}
